@@ -2,7 +2,7 @@
 footer{
     height: 20vh;
     width: 100vw;
-    margin: 0 0;
+    margin: 50px 0 0 0;
     padding: 0 0;
     color: #fff;
     background: #f36d10;
@@ -20,7 +20,7 @@ footer{
 }
 
 .footer-creds {
-    padding: 10px 0;
+    margin: 2vh 0;
     text-align: center;
     font-size:  25px;
     font-family: 'Lobster', cursive;

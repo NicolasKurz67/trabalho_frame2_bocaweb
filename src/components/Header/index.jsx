@@ -10,12 +10,10 @@ export const Header = ({ search, buscaODA }) => {
 
             <nav className='space-nav'>
                 <div className="search-box">
-
                     <div className='link-item'>
                         <li><span>Início</span></li>
                         <li><span>Suporte</span></li>
                     </div>
-
                     <div className='space-search-box'>
                         <div className='search-box-input'>
                             <input
@@ -27,7 +25,6 @@ export const Header = ({ search, buscaODA }) => {
                                 className="search-txt"
                             />
                         </div>
-
                         <span className="search-btn">
                             <i className="fa fa-search"></i>
                         </span>
