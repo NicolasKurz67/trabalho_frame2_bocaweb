@@ -34,7 +34,7 @@ class App extends Component{
       <section className="container">
         
        <Header
-          pesquisa={this.state.busca}
+          search={this.state.busca}
           buscaODA={this.buscaODA}
        />
 

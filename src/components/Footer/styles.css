@@ -1,62 +1,82 @@
 
 footer{
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #cc7a00;
-    height: auto;
+    height: 20vh;
     width: 100vw;
-    font-family: "Open Sans";
-    padding-top: 5px;
+    margin: 0 0;
+    padding: 0 0;
     color: #fff;
+    background: #f36d10;
+    font-family: "Open Sans";
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer-btn {
-    width: 100vw;
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-creds {
     padding: 10px 0;
     text-align: center;
-    font-size:  25PX;
+    font-size:  25px;
     font-family: 'Lobster', cursive;
 
 }
-.footer-btn p{
+.footer-creds p{
     font-size: 14px;
     font-size: 20px;
 }
-.footer-btn span{
+.footer-creds span{
     opacity: .4;
     font-weight: 200;
 }
 
-.socials-icons{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1vh;
-    margin: 1rem 0 3rem 0;
-}
-.socials-icons li{
-    margin: 0 20px;
-}
-.socials-icons a{
-    text-decoration: none;
-    color: #fff;
-}
-.socials-icons a i{
-    font-size: 1.1rem;
-    transition: color .4s ease;
-
-}
-.socials-icons a:hover i{
-    color: aqua;
-}
-
-.footer-content{
-    position: relative;
+.footer-icons{
+    height: 10vh;
+    width: 20vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials-icons{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.socials-icons li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    color: #f36d10;
+    background: #141418;
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+    transform: scale(1.75);
+    animation-duration: 1s;
+    animation-delay: 1s ease-in;
+}
+
+.socials-icons li:hover{
+    border-radius: 100%;
+    color: #141418;
+    background: #fff;
+    height: 2rem;
+    width: 2rem;
+}
+
+p::selection{
+    background-color: black;
+    color: #fdc702;
 }
