@@ -18,8 +18,12 @@ p::selection{
   color: #fdc702;
 }
 
+.container-root{
+  max-width: 100%;
+}
+
 .card-box {
-	flex: 1 1 450px;
+	flex: 1;
 	margin: 10px;
 	display: flex;
 	flex-direction: column;
@@ -72,13 +76,25 @@ p::selection{
 .card-author svg {
 	width: 12px;
 }
-.count-odas{
-  align-items: center;
 
+.count-odas{
+  display: flex;
   justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  background: #141414;
+  border-radius: 10px;
+  margin: 10px;
+  height: 5vh;
 }
 
-/* PAGINATOR */
+
+.count-odas p {
+  margin: 20px auto;
+}
 
 .paginationBttns {
     width: 80%;

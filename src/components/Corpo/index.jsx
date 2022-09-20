@@ -3,10 +3,11 @@ import './styles.css';
 export const Corpo = ({ resultado }) => {
 
   return (
-    <div className='count-odas'>
-      <p> {resultado.length} odas </p>
+    <div className='container-root'>
 
-      <section>
+      <p className='count-odas'> {resultado.length} odas </p>
+      
+      <section className='teste'>
 
         {resultado.map(odas => (
           <div key={odas._id} className="card-box">
