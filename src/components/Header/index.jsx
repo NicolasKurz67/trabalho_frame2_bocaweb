@@ -23,6 +23,7 @@ export const Header = ({ search, buscaODA }) => {
                                 placeholder='Pesquisar ODA'
                                 onChange={buscaODA}
                                 className="search-txt"
+                                autoComplete='off'
                             />
                         </div>
                         <span className="search-btn">
