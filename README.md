@@ -1,3 +1,3 @@
 # trabalho_frame2_bocaweb
 
-# Grupo: ## Nick
+# Grupo: Nícolas Kurz Chimenes Silva e Rômulo Romanholi Pereira
