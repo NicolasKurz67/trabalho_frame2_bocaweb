@@ -8,7 +8,6 @@ export const Corpo = ({ resultado }) => {
       <p className='count-odas'> {resultado.length} ODAS</p>
       
       <section>
-
         {resultado.map(odas => (
           <div key={odas._id} className="card-box">
             <div className="card-content">
