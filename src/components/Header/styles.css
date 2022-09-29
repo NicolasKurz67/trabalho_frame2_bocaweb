@@ -3,13 +3,12 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: orange;
+  background: #fff;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: black;
+  background-color: rgb(177, 177, 177);
   border-radius: 2rem;
-  border: 3px solid orange;
 }
 
 .menu {
