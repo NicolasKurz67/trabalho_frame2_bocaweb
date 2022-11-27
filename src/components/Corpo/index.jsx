@@ -5,7 +5,9 @@ export const Corpo = ({ resultado }) => {
   return (
     <div className='container-root'>
 
-      <p className='count-odas'> {resultado.length} ODAS</p>
+      <div className="contador">
+        <p className='count-odas'> {resultado.length} ODAS</p>
+      </div>
       
       <section>
         {resultado.map(odas => (
